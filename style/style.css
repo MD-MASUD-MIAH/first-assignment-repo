@@ -4,9 +4,11 @@
 }
 
 body{
-    margin-left: 14%;
+    margin-left: 16%;
     margin-right: 12%;
     margin-top: 5%;
+    width: 1280px;
+    background-color: rgb(245, 245, 245);
 }
 
 /* style sheet  */
@@ -19,7 +21,38 @@ body{
     font-weight: 700;
     font-style: normal;
   }
-  
+
+  .text{
+font-size: 40px;
+font-weight: 700px;
+
+  }
+  .first-small{
+    font-size: 20px;
+    opacity: 0.8;
+  }
+  .forp{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 24px;
+  }
+  .btn3{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border-radius: 8px;
+    background-color: rgb(84, 144, 245);
+    border: none;
+    height: 41px;
+    width: 122px;
+    margin-top: 30px;
+  }
+  .btn3:hover{
+    background-color: yellow;
+    color:black ;
+  }
 
   /* nav style  */
 
@@ -99,4 +132,114 @@ cursor: pointer;
     
   }
 
+
+/* items-section  */
+.items-section{
+    height: 324px;
+    margin-top: 80px;
+}
+.item{
+    height: 244px;
+    width: 302px;
+    background-color: white;
+    border-radius: 16px;
+   
+}
+
+.item div{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding:24px 24px;
+   
+    
+}
+.all-item{
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+/* futur-section style  */
+
+.future-section{
+    margin-top:80px;
+
+}
+
+.future-section .title{
+    margin-bottom: 24px;
+}
+.future-section .subtitle{
+    margin-bottom: 32px;
+}
+.future{
+    width: 410.67px;
+    height: 325px;
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+    padding: 0px 32px;
+    padding-top: 42px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+
+}
+.future-section div{
+    display: flex;
+    gap: 24px;
+}
+
+.future2{
+    background-color: rgb(198, 228, 214) ;
+}
+.future2 button{
+    background-color: rgb(9, 161, 92);
+    
+}
+
+.future3{
+    background-color: rgb(247, 235, 207);
+}
+
+.future3 button{
+    background-color: rgb(255, 197, 57);
+}
+
+/* dr.yunus style  */
+.dr-yunus{
+    max-height: 256px;
+    margin-top: 32px;
+    background-color: white;
+    border-radius: 16px;
+    padding:  34px;
   
+}
+.dr-yunus .yunus-section{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    padding: 24px 20px ;
+    
+   
+}
+
+.br{
+    margin-top: 30px;
+}
+
+/* table-section style  */
+
+.table-section{
+    margin-top: 80px;
+    height: 481px;
+}
+
+.table-section .mat{
+    margin-bottom: 24px;
+}
+.tables{
+    height: 409px;
+    border-radius: 16px;
+    background-color: white;
+}
