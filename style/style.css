@@ -233,13 +233,141 @@ cursor: pointer;
 .table-section{
     margin-top: 80px;
     height: 481px;
+    
 }
 
 .table-section .mat{
     margin-bottom: 24px;
 }
 .tables{
-    height: 409px;
+    height: 375px;
     border-radius: 16px;
     background-color: white;
+    padding:  32px 32px;
+}
+
+.main-table{
+  width: 1217px;
+  height: 368px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  
+  
+  
+}
+
+.data{
+  height: 92px;
+  width: 1216px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background-color: rgb(198, 228, 214);
+}
+.data .title1{
+  margin-left: 24px;
+  text-align: start;
+}
+.data .title2{
+  margin-right: 24px;
+  text-align: end;
+}
+
+.border{
+  width: 1017px;
+  height: 92px;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  border-right: 1px solid rgba(14, 14, 14, 0.15);
+}
+ .border1{
+  display: flex;
+ }
+.bd{
+  width: 200px;
+  height: 92px;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  
+}
+
+.titleh{
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 24px;
+  margin-top: 37px;
+}
+
+.yes{
+  height: 44px;
+width: 145px;
+background-color: rgb(198, 228, 214);
+border: 1px solid black;
+border-radius: 4px;
+}
+
+.yes:hover{
+  background-color: green;
+  color: white;
+}
+
+/* news-section style  */
+.news-section{
+  margin-top:80px   ;
+}
+
+.recent{
+  margin-bottom: 24px;
+}
+.bangla{
+  margin-bottom: 32px;
+}
+
+  #news{
+  width: 1280px;
+  height: 402px;
+  background-color: white;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly
+
+}
+
+.img-bd img{
+  border-radius: 24px;
+}
+
+.btn-div{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+}
+
+.btn-div div{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn-div div h1{
+  font-size: 32px;
+  opacity: 0.8;
+}
+
+.read-btn{
+  width: 139px;
+  height: 48px;
+  background-color: rgb(0, 106, 80);
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.read-btn:hover{
+  background-color: blue;
 }
