@@ -317,6 +317,7 @@ width: 145px;
 background-color: rgb(198, 228, 214);
 border: 1px solid black;
 border-radius: 4px;
+text-align: center;
 }
 
 .yes:hover{
