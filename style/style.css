@@ -370,4 +370,75 @@ border-radius: 4px;
 
 .read-btn:hover{
   background-color: blue;
+  color: black;
+}
+
+/* donate-section style  */
+
+.donate-section{
+  height: 464px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.donate-container{
+  height: 128px;
+  width: 1071px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  ;
+}
+
+.container{
+  width: 224px;
+  height: 128px;
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container:hover{
+background-color: rgb(255, 173, 65);
+cursor: pointer;
+color: white;
+}
+.taka{
+  font-size: 40px;
+  opacity: 0.8;
+}
+
+.donate-section input{
+  height: 64px;
+  width: 1232px;
+}
+
+.donate-section input[placeholder]{
+  text-align: center;
+}
+
+.done-btn{
+  width: 151px;
+  height: 56px;
+  background-color: rgb(0, 106, 80);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+.done-btn:hover{
+  background-color: blue;
+  color: black;
+}
+
+.taka-500{
+  background-color: rgb(198, 228, 214);
 }
